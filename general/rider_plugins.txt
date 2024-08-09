@@ -1,0 +1,8 @@
+me.rafaelldi.aspire
+ru.adelf.idea.dotenv
+com.github.copilot
+com.intellij.plugin.adernov.powershell
+com.intellij.resharper.StructuredLogging
+org.toml.lang
+com.intellij.resharper.azure
+PythonCore
