@@ -25,4 +25,5 @@ kubernetes-cli
 lightshot
 vscode
 another-redis-desktop-manager
+nvm
 
