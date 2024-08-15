@@ -89,6 +89,55 @@ if (-not (Get-Command az -ErrorAction SilentlyContinue)) {
   Write-Host "Azure CLI already installed."
 }
 
+#vscode 
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension donjayamanne.python-extension-pack
+code --install-extension eamodio.gitlens
+code --install-extension esbenp.prettier-vscode
+code --install-extension formulahendry.auto-close-tag
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension formulahendry.code-runner
+code --install-extension fr43nk.seito-openfile
+code --install-extension github.copilot
+code --install-extension github.copilot-chat
+code --install-extension hashicorp.terraform
+code --install-extension idleberg.icon-fonts
+code --install-extension mgmcdermott.vscode-language-babel
+code --install-extension mikestead.dotenv
+code --install-extension mohsen1.prettify-json
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-dotnettools.csdevkit
+code --install-extension ms-dotnettools.csharp
+code --install-extension ms-dotnettools.vscode-dotnet-runtime
+code --install-extension ms-dotnettools.vscodeintellicode-csharp
+code --install-extension ms-python.debugpy
+code --install-extension ms-python.python
+code --install-extension ms-python.vscode-pylance
+code --install-extension ms-toolsai.jupyter
+code --install-extension ms-toolsai.jupyter-keymap
+code --install-extension ms-toolsai.jupyter-renderers
+code --install-extension ms-toolsai.vscode-jupyter-cell-tags
+code --install-extension ms-toolsai.vscode-jupyter-slideshow
+code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-vscode-remote.remote-ssh
+code --install-extension ms-vscode-remote.remote-ssh-edit
+code --install-extension ms-vscode-remote.remote-wsl
+code --install-extension ms-vscode-remote.vscode-remote-extensionpack
+code --install-extension ms-vscode.powershell
+code --install-extension ms-vscode.remote-explorer
+code --install-extension ms-vscode.remote-server
+code --install-extension ms-vscode.vs-keybindings
+code --install-extension ms-vsliveshare.vsliveshare
+code --install-extension njpwerner.autodocstring
+code --install-extension nucllear.vscode-extension-auto-import
+code --install-extension redhat.vscode-commons
+code --install-extension redhat.vscode-yaml
+code --install-extension shakram02.bash-beautify
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension visualstudioexptteam.intellicode-api-usage-examples
+code --install-extension visualstudioexptteam.vscodeintellicode
+code --install-extension vscode-icons-team.vscode-icons
+
 
 
 #--- Git ---
