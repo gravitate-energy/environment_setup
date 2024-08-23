@@ -172,7 +172,12 @@ Enable-RemoteDesktop
 #--- Install Ubuntu/WSL/DockerDesktop
 
 cinst Microsoft-Hyper-V-All -source windowsFeatures
-wsl --install
+
+#--- WSL Stuff ---
+if (!(Get-Command 'wsl' -ErrorAction SilentlyContinue)) {
+  wsl --install
+}
+
 cinst docker-desktop
 
 #--- WSL Stuff ---
